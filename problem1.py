@@ -22,6 +22,8 @@ Enter the replacement:Dan
 people=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 word1=input("Enter word from list")
 word2=input("Enter another word")
-people.insert(1,word2)
+x=people.index(word1)
+x=int(x)
+people.insert(x,word2)
 people.remove(word1)
 print(people)
