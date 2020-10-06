@@ -25,3 +25,15 @@ The largest number you entered is 92
 """
 
 
+
+x=(input("Enter a integer")).strip()
+x=int(x)
+numbers=[]
+while x>0:
+    print(x)
+    x=(input("Enter a integer")).strip()
+    x=int(x)
+    numbers.insert(1,x)
+if x<0:
+    numbers.sort()
+    print(numbers[-1])
