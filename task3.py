@@ -12,8 +12,6 @@ string containing the 2 numbers:
 example:
 The smallest number is 3 and the largest number is 9
 """
-
-
 myList = [ 3,6,5,4,6,7,8,6,5,9,4,5 ]
 myList.sort()
-print("The smallest number is "+str(myList[1])+" and the largest number is "+str(myList[-1]))
+print("* "+str(myList[0])+" .* "+str(myList[-1]))
