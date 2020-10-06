@@ -27,10 +27,10 @@ x=(input("Enter a integer")).strip()
 x=int(x)
 numbers=[]
 numbers.append(x)
-while x>0:
+while x>=0:
     x=(input("Enter a integer")).strip()
     x=int(x)
-    if x>0:
+    if x>=0:
         numbers.append(x)
     if x<0:
         numbers.sort()
