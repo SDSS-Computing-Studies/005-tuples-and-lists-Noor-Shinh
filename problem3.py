@@ -26,11 +26,12 @@ The largest number you entered is 92
 x=(input("Enter a integer")).strip()
 x=int(x)
 numbers=[]
+numbers.append(x)
 while x>0:
-    print(x)
     x=(input("Enter a integer")).strip()
     x=int(x)
-    numbers.insert(1,x)
+    if x>0:
+        numbers.append(x)
     if x<0:
         numbers.sort()
-        print(numbers[-1])
+        print(numbers[-1])    
